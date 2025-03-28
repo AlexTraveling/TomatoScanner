@@ -17,10 +17,8 @@ In this paper, we propose a non-contact tomato fruit phenotyping method, titled 
 
 ## How TomatoScanner performs
 We establish self-built Tomato Phenotype Dataset to test TomatoScanner, which achieves excellent phenotyping on width, height, vertical area and volume, with median relative error of 5.63%, 7.03%, -0.64% and 37.06%, respectively. We propose and add three innovative modules - EdgeAttention, EdgeLoss and EdgeBoost - into EdgeYOLO, to enhance the segmentation accuracy on edge portion. Precision and mean Edge Error greatly improve from 0.943 and 5.641% to 0.986 and 2.963%, respectively. Meanwhile, EdgeYOLO keeps lightweight and efficient, with 48.7 M weights size and 76.34 FPS.
-<br><br> ![TomatoScanner architecture](/for_readme/Test_experiment_results.png)
-
-<!-- <img src="/for_readme/demo.png" width="70%"> -->
-
+<br><br> ![TomatoScanner test results](/for_readme/Test_experiment_results.png)
+<br><br> ![TomatoScanner test demonstration](/for_readme/Fig6_test.jpg)
 
 ## Set up
 Code of TomatoScanner will be open-sourced after publication. 
