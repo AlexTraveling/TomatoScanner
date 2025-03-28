@@ -1,10 +1,12 @@
 # TomatoScanner: phenotyping tomato fruit based on only RGB image
 
-**Xiaobei Zhao, Xiangrong Zeng, Yihang Ma, Pengjin Tang, Xiang Li<sup>*</sup>** <br> 📮 first author: 15801175735@163.com <br> 📮 corresponding author: cqlixiang@cau.edu.cn <br> **China Agricultural University** <br><br> Preprint on arXiv: <br> https://arxiv.org/abs/2503.05568
-
-## What TomatoScanner can do
-A simple demonstration of TomatoScanner: (a) is the input RGB image. (b) and (c) are the output phenotyping results - width, height, vertical area and volume - of two fruits, respectively. (Zoom in for better observation)
+**Xiaobei Zhao, Xiangrong Zeng, Yihang Ma, Pengjin Tang, Xiang Li<sup>*</sup>** <br> 📮 first author: 15801175735@163.com <br> 📮 corresponding author: cqlixiang@cau.edu.cn <br> **China Agricultural University** <br><br> Preprint on arXiv: <br> https://arxiv.org/abs/2503.05568 <br><br> A simple demonstration of TomatoScanner: (a) is the input RGB image. (b) and (c) are the output phenotyping results - width, height, vertical area and volume - of two fruits, respectively. (Zoom in for better observation)
 <br><br> ![TomatoScanner function demonstration](/for_readme/demo.jpg)
+
+
+<!-- ## What TomatoScanner can do
+A simple demonstration of TomatoScanner: (a) is the input RGB image. (b) and (c) are the output phenotyping results - width, height, vertical area and volume - of two fruits, respectively. (Zoom in for better observation) -->
+
 
 ## Why we need TomatoScanner
 In tomato greenhouse, phenotypic measurement is meaningful for researchers and farmers to monitor crop growth, thereby precisely control environmental conditions in time, leading to better quality and higher yield. Traditional phenotyping mainly relies on manual measurement, which is accurate but inefficient, more importantly, endangering the health and safety of people. Several studies have explored computer vision-based methods to replace manual phenotyping. However, the 2D-based need extra calibration, or cause destruction to fruit, or can only measure limited and meaningless traits. The 3D-based need extra depth camera, which is expensive and unacceptable for most farmers. 
